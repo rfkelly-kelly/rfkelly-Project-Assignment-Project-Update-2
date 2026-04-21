@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Sit Happens to request dog sitting, walks, and drop-in services in Los Angeles and Ventura County." />
+  <meta name="keywords" content="contact dog sitter, book dog sitting, Los Angeles pet care" />
+  <meta name="author" content="Reilly Kelly" />
+  <title>Contact | Sit Happens</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html" aria-label="Sit Happens Home">
+        <img src="sit happens logo.png" alt="Sit Happens logo" class="logo-main" />
+      </a>
+      <nav class="header-nav">
+        <a href="tel:8186202939" class="btn-primary">Call Now</a>
+        <a href="contact.html" class="btn-secondary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="clients.html">Clients</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="subpage-main">
+    <section class="subpage-hero">
+      <img src="dog logo.png" alt="Sit Happens dog logo" class="page-hero-logo" />
+      <h1>Contact Sit Happens</h1>
+      <p>Send booking details below and I will follow up as soon as possible.</p>
+    </section>
+
+    <section class="content-section">
+      <h2>Booking Request Form</h2>
+      <p>
+        Complete this form with your dog's care needs. This form does not process payments and is for request details only.
+      </p>
+
+      <form class="contact-form" action="#" method="post">
+        <label for="owner-name">Owner Name</label>
+        <input id="owner-name" name="owner-name" type="text" required />
+
+        <label for="email-address">Email Address</label>
+        <input id="email-address" name="email-address" type="email" required />
+
+        <label for="phone-number">Phone Number</label>
+        <input id="phone-number" name="phone-number" type="tel" required />
+
+        <label for="service-type">Requested Service</label>
+        <select id="service-type" name="service-type" required>
+          <option value="">Select one</option>
+          <option value="walks">Walks</option>
+          <option value="drop-in">Drop-In Visits</option>
+          <option value="pet-sitting">Pet Sitting</option>
+          <option value="overnight">Overnight Stay</option>
+        </select>
+
+        <label for="service-date">Preferred Date</label>
+        <input id="service-date" name="service-date" type="date" required />
+
+        <label for="care-notes">Pet Care Notes</label>
+        <textarea id="care-notes" name="care-notes" rows="5" placeholder="Share feeding schedule, medications, behavior notes, and anything important."></textarea>
+
+        <button class="btn-primary" type="submit">Submit Request</button>
+      </form>
+    </section>
+
+    <section class="content-section">
+      <h2>Direct Contact</h2>
+      <p>Call or text: <a href="tel:8186202939">818-620-2939</a></p>
+      <p>
+        Email link:
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hello@sithappens.com" target="_blank" rel="noopener">Email Me!</a>
+      </p>
+      <p>Service area: Los Angeles and Ventura County.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="clients.html">Clients</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <ul>
+          <li>📍 Los Angeles and Ventura County</li>
+          <li>📞 818-620-2939</li>
+          <li>✉️ Contact by phone or text</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Book a Visit</h4>
+        <div class="footer-brand">
+          <p class="footer-brand-text">Sit Happens</p>
+        </div>
+        <div class="social-links">
+          <a href="tel:8186202939">📞 Call 818-620-2939</a>
+          <a href="sms:8186202939">💬 Text to Book</a>
+          <a href="services.html">🐾 View Services</a>
+        </div>
+        <p class="copyright">&copy; 2026 Sit Happens. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
